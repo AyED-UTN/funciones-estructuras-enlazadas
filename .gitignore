@@ -1,0 +1,112 @@
+# Ejecutables
+*.exe
+*.out
+*.app
+*.o
+*.so
+*.dylib
+
+# Archivos objeto
+*.obj
+*.o
+*.ko
+
+# Archivos compilados dinámicos
+*.dll
+*.la
+*.a
+*.lib
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+
+# Directorios de build
+build/
+dist/
+out/
+cmake-build-*/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos VS Code
+.vscode/
+*.code-workspace
+
+# Archivos de Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+Debug/
+Release/
+x64/
+x86/
+.vs/
+
+# Archivos de depuración
+*.pdb
+*.ilk
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Archivos de prueba local
+*.test
+test_output/
+
+# Node modules (si hay scripts)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Clang
+.clang-format
+
+# Conan
+conan.lock
+conanbuildinfo.txt
+conanbuildinfo.cmake
+graph_info.json
+
+# ccache
+.ccache/
+
+# Documentación generada
+doc/html/
+doc/latex/
+doxygen_warning.log
+
+# Logs
+*.log
+
+# Archivos específicos del proyecto
+salida.txt
+resultado.txt
+output.txt
+
+# Temporales de compilación
+*.d
+*.s
